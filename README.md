@@ -71,7 +71,7 @@ The WDBC data are distributed with scikit-learn (`sklearn.datasets.load_breast_c
 
 ## Citation
 
-See `CITATION.cff`. An archived version of this repository is available on Zenodo: https://doi.org/10.5281/zenodo.__________
+See `CITATION.cff`. An archived version of this repository is available on Zenodo: https://doi.org/10.5281/zenodo.24543377.
 
 ## License
 
