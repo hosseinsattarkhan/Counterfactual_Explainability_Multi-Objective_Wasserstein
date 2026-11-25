@@ -1,0 +1,5 @@
+Command: cd Implementation && python -m pytest -q tests
+Exit code: 0
+
+.......................................                                  [100%]
+39 passed in 6.87s

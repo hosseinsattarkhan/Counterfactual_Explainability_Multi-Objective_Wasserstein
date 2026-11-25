@@ -1,0 +1,22 @@
+{
+  "cases": 12,
+  "agreements": 12,
+  "below_valid": 12,
+  "median_exact_seconds": 0.07867263949992775,
+  "median_bisection_seconds": 0.536327475500002,
+  "speed_ratio_bisection_over_exact": 6.81720454416042,
+  "by_n": {
+    "8": {
+      "median_exact": 0.03771148200007701,
+      "median_bisection": 0.2731399465001232
+    },
+    "16": {
+      "median_exact": 0.07867263949992775,
+      "median_bisection": 0.536327475500002
+    },
+    "32": {
+      "median_exact": 0.15556055849992845,
+      "median_bisection": 1.0906961915002285
+    }
+  }
+}

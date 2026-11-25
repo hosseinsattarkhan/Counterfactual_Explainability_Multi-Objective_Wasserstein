@@ -1,0 +1,142 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (WDBC), scikit-learn bundled copy",
+  "dataset_n": 569,
+  "positive_cases": 212,
+  "negative_cases": 357,
+  "policies": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "baseline_policy": 0.3,
+  "folds": [
+    {
+      "fold": 0,
+      "n_test": 114,
+      "prevalence": 0.37719298245614036,
+      "auc": 1.0
+    },
+    {
+      "fold": 1,
+      "n_test": 114,
+      "prevalence": 0.37719298245614036,
+      "auc": 0.9954143465443825
+    },
+    {
+      "fold": 2,
+      "n_test": 114,
+      "prevalence": 0.3684210526315789,
+      "auc": 0.9937169312169312
+    },
+    {
+      "fold": 3,
+      "n_test": 114,
+      "prevalence": 0.3684210526315789,
+      "auc": 0.986111111111111
+    },
+    {
+      "fold": 4,
+      "n_test": 113,
+      "prevalence": 0.37168141592920356,
+      "auc": 1.0
+    }
+  ],
+  "preference_center": [
+    0.65,
+    0.2,
+    0.15
+  ],
+  "preference_offset_vertices": [
+    [
+      0.1,
+      -0.05,
+      -0.05
+    ],
+    [
+      -0.1,
+      0.05,
+      0.05
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "nominal_probabilities": [
+    0.20035149384885764,
+    0.20035149384885764,
+    0.20035149384885764,
+    0.20035149384885764,
+    0.19859402460456943
+  ],
+  "ground_distance": [
+    [
+      0.0,
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    [
+      0.02,
+      0.0,
+      0.02,
+      0.02,
+      0.02
+    ],
+    [
+      0.02,
+      0.02,
+      0.0,
+      0.02,
+      0.02
+    ],
+    [
+      0.02,
+      0.02,
+      0.02,
+      0.0,
+      0.02
+    ],
+    [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.0
+    ]
+  ],
+  "wasserstein_radii": [
+    0.0,
+    0.0001,
+    0.001,
+    0.003,
+    0.01
+  ],
+  "valid_policy_counts": {
+    "0.0": 1,
+    "0.0001": 1,
+    "0.001": 1,
+    "0.003": 0,
+    "0.01": 0
+  },
+  "finite_radius_count": 3,
+  "radius_below_audit_pass": 3,
+  "radius_below_audit_fail": 0,
+  "auc_mean": 0.9950484777744851,
+  "scikit_learn_version": "1.8.0",
+  "python_version": "3.13.5",
+  "limitations": [
+    "Real diagnostic observations but hypothetical operational policy; not a clinical recommendation",
+    "5 cross-validation folds are constructed scenarios, not independently observed future deployment environments",
+    "Ground distance is prevalence-based modeling choice; no empirical transport validation",
+    "Thresholds and objective weights are not elicited from stakeholders",
+    "No prospective outcomes, cost calibration, external validation or safety review"
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "summary": {
+    "instances": 27,
+    "status_agreements": 27,
+    "objective_agreements": 16,
+    "both_optimal": 16,
+    "failed_audits": 0,
+    "median_seconds_cutting_plane": 0.029705612999805453,
+    "median_seconds_direct": 0.008867482999903586
+  },
+  "rows": [
+    {
+      "n": 4,
+      "radius": 0.0,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.012446736999663699,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.008966489000158617,
+        "audit": true
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.0,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.008369481000045198,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.008407225999690127,
+        "audit": true
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.0,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.008240360999934637,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.008368139000140218,
+        "audit": true
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.1,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.1873119494403877,
+        "seconds": 0.0169112540002061,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.18731194944038793,
+        "seconds": 0.009332907000043633,
+        "audit": true
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.1,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.1923026467493088,
+        "seconds": 0.016762516000198957,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.19230264674930908,
+        "seconds": 0.008867482999903586,
+        "audit": true
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.1,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.00824601900012567,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.00916129600000204,
+        "audit": true
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.3,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.009076460999949632
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0011357899998074572
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.3,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.009013067000068986
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0011581039998418419
+      }
+    },
+    {
+      "n": 4,
+      "radius": 0.3,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.3798271251484717,
+        "seconds": 0.025076944999909756,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.3798271251484717,
+        "seconds": 0.009236034999958065,
+        "audit": true
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.0,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.015338770000198565,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.0158640340000602,
+        "audit": true
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.0,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.015495461999762483,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.016491215999849373,
+        "audit": true
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.0,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.017090056000142795,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.01761984599988864,
+        "audit": true
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.1,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.033929535999959626
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0014321869998639158
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.1,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.032472592999965855
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.002191813999615988
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.1,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.033059075999972265
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.001397134999933769
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.3,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.03235622100010005
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0014652760000899434
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.3,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.03234924199978195
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0014578639998035214
+      }
+    },
+    {
+      "n": 8,
+      "radius": 0.3,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.23451666799029902,
+        "seconds": 0.0313569209997695,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.23451666799029902,
+        "seconds": 0.016307394999785174,
+        "audit": true
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.0,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.03044125400037956,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.03154627000003529,
+        "audit": true
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.0,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.029643752000083623,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.03170181799987404,
+        "audit": true
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.0,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.029705612999805453,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.03012908599976072,
+        "audit": true
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.1,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.03090868200024488,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.0,
+        "seconds": 0.03198534600005587,
+        "audit": true
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.1,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.06751100900009988
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0019109710001430358
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.1,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "optimal",
+        "objective": 0.3942831046310034,
+        "seconds": 0.0613772780002364,
+        "audit": true
+      },
+      "direct": {
+        "status": "optimal",
+        "objective": 0.3942831046310033,
+        "seconds": 0.032979187999899295,
+        "audit": true
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.3,
+      "replicate": 0,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.032141856999714946
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0019222280002395564
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.3,
+      "replicate": 1,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.03210955799977455
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.001808180000352877
+      }
+    },
+    {
+      "n": 16,
+      "radius": 0.3,
+      "replicate": 2,
+      "cutting_plane": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.03235460900032194
+      },
+      "direct": {
+        "status": "infeasible",
+        "objective": null,
+        "seconds": 0.0017831830000432092
+      }
+    }
+  ]
+}

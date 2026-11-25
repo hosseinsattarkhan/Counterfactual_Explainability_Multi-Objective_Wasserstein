@@ -1,0 +1,32 @@
+{
+  "cases": 16,
+  "agreements": 16,
+  "median_exact_s": 0.11077708300013,
+  "median_bisection_s": 1.16588660299999,
+  "by_n": {
+    "8": {
+      "cases": 4,
+      "agreements": 4,
+      "median_exact_s": 0.041174430499950176,
+      "median_bisection_s": 0.3942242475002331
+    },
+    "16": {
+      "cases": 4,
+      "agreements": 4,
+      "median_exact_s": 0.07556222350012831,
+      "median_bisection_s": 0.7789014654999846
+    },
+    "32": {
+      "cases": 4,
+      "agreements": 4,
+      "median_exact_s": 0.1525341290000597,
+      "median_bisection_s": 1.5945342749998872
+    },
+    "64": {
+      "cases": 4,
+      "agreements": 4,
+      "median_exact_s": 0.3043657714999881,
+      "median_bisection_s": 3.1207723389998137
+    }
+  }
+}

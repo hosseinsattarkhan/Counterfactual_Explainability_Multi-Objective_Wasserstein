@@ -1,0 +1,14 @@
+{
+  "seed": 20261116,
+  "n_runs": 45,
+  "statuses": {
+    "certified_sufficient": 30,
+    "infeasible": 15
+  },
+  "independent_audits": 30,
+  "max_audited_gap": -0.0,
+  "median_runtime_seconds": 0.028125,
+  "data": "synthetic only; no public real-world benchmark used",
+  "baseline": "independent direct LP for nominal distribution, NOT equivalent to Wasserstein robust model",
+  "scope": "finite decisions/scenarios, shared discrete Wasserstein ball, sufficient L1 neighborhood certificate"
+}

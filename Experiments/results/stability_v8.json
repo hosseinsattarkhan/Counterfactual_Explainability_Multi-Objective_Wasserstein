@@ -1,0 +1,110 @@
+[
+  {
+    "seed": 0,
+    "decisions": 5,
+    "wasserstein_radius": 0.0,
+    "status": "bracketed",
+    "lower": 0.2894287109375,
+    "upper": 0.28948974609375,
+    "seconds": 0.15937
+  },
+  {
+    "seed": 1,
+    "decisions": 6,
+    "wasserstein_radius": 0.1,
+    "status": "bracketed",
+    "lower": 0.06878662109375,
+    "upper": 0.06884765625,
+    "seconds": 0.2123
+  },
+  {
+    "seed": 2,
+    "decisions": 7,
+    "wasserstein_radius": 0.3,
+    "status": "invalid_at_zero",
+    "lower": null,
+    "upper": 0.0,
+    "seconds": 0.02877
+  },
+  {
+    "seed": 3,
+    "decisions": 8,
+    "wasserstein_radius": 0.0,
+    "status": "bracketed",
+    "lower": 0.07574462890625,
+    "upper": 0.0758056640625,
+    "seconds": 0.41084
+  },
+  {
+    "seed": 4,
+    "decisions": 5,
+    "wasserstein_radius": 0.1,
+    "status": "invalid_at_zero",
+    "lower": null,
+    "upper": 0.0,
+    "seconds": 0.02127
+  },
+  {
+    "seed": 5,
+    "decisions": 6,
+    "wasserstein_radius": 0.3,
+    "status": "invalid_at_zero",
+    "lower": null,
+    "upper": 0.0,
+    "seconds": 0.02655
+  },
+  {
+    "seed": 6,
+    "decisions": 7,
+    "wasserstein_radius": 0.0,
+    "status": "bracketed",
+    "lower": 0.20343017578125,
+    "upper": 0.2034912109375,
+    "seconds": 0.47213
+  },
+  {
+    "seed": 7,
+    "decisions": 8,
+    "wasserstein_radius": 0.1,
+    "status": "bracketed",
+    "lower": 0.09326171875,
+    "upper": 0.09332275390625,
+    "seconds": 0.56765
+  },
+  {
+    "seed": 8,
+    "decisions": 5,
+    "wasserstein_radius": 0.3,
+    "status": "invalid_at_zero",
+    "lower": null,
+    "upper": 0.0,
+    "seconds": 0.02225
+  },
+  {
+    "seed": 9,
+    "decisions": 6,
+    "wasserstein_radius": 0.0,
+    "status": "bracketed",
+    "lower": 0.21856689453125,
+    "upper": 0.2186279296875,
+    "seconds": 0.36547
+  },
+  {
+    "seed": 10,
+    "decisions": 7,
+    "wasserstein_radius": 0.1,
+    "status": "bracketed",
+    "lower": 0.23504638671875,
+    "upper": 0.235107421875,
+    "seconds": 0.43971
+  },
+  {
+    "seed": 11,
+    "decisions": 8,
+    "wasserstein_radius": 0.3,
+    "status": "invalid_at_zero",
+    "lower": null,
+    "upper": 0.0,
+    "seconds": 0.03455
+  }
+]

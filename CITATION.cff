@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Certified Counterfactual Explainability of Multi-Objective Decisions under Preference Uncertainty and Finite-Support Wasserstein Distributional Ambiguity"
+type: software
+authors:
+  - family-names: "Sattarkhan"
+    given-names: "Mohammad Hossein"
+    affiliation: "Industrial Engineering Department, Yazd University, Yazd, Iran"
+repository-code: "https://github.com/hosseinsattarkhan/Counterfactual_-Explainability_Multi-Objective_-Wasserstein"
+license: MIT

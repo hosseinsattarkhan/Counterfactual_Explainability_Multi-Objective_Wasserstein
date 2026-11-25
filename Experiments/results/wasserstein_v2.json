@@ -1,0 +1,142 @@
+[
+  {
+    "radius": 0.0,
+    "target": 0,
+    "status": "infeasible",
+    "iterations": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 0.0,
+    "target": 1,
+    "status": "certified",
+    "weights": [
+      0.7,
+      0.30000000000000004
+    ],
+    "l1_distance": 5.551115123125783e-17,
+    "certificate_gap": -0.0,
+    "iterations": 1,
+    "tolerance": 1e-07,
+    "certificate_type": "uniform_for_all_distributions_in_finite_support_W1_ball"
+  },
+  {
+    "radius": 0.0,
+    "target": 2,
+    "status": "infeasible",
+    "iterations": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 0.1,
+    "target": 0,
+    "status": "infeasible",
+    "iterations": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 0.1,
+    "target": 1,
+    "status": "certified",
+    "weights": [
+      0.7,
+      0.30000000000000004
+    ],
+    "l1_distance": 5.551115123125783e-17,
+    "certificate_gap": -0.0,
+    "iterations": 1,
+    "tolerance": 1e-07,
+    "certificate_type": "uniform_for_all_distributions_in_finite_support_W1_ball"
+  },
+  {
+    "radius": 0.1,
+    "target": 2,
+    "status": "infeasible",
+    "iterations": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 0.3,
+    "target": 0,
+    "status": "infeasible",
+    "iterations": 3,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 0.3,
+    "target": 1,
+    "status": "certified",
+    "weights": [
+      0.7,
+      0.30000000000000004
+    ],
+    "l1_distance": 5.551115123125783e-17,
+    "certificate_gap": -0.0,
+    "iterations": 1,
+    "tolerance": 1e-07,
+    "certificate_type": "uniform_for_all_distributions_in_finite_support_W1_ball"
+  },
+  {
+    "radius": 0.3,
+    "target": 2,
+    "status": "infeasible",
+    "iterations": 3,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 0.6,
+    "target": 0,
+    "status": "infeasible",
+    "iterations": 3,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 0.6,
+    "target": 1,
+    "status": "certified",
+    "weights": [
+      0.5925925925925926,
+      0.4074074074074074
+    ],
+    "l1_distance": 0.2148148148148148,
+    "certificate_gap": 1.1102230246251565e-16,
+    "iterations": 2,
+    "tolerance": 1e-07,
+    "certificate_type": "uniform_for_all_distributions_in_finite_support_W1_ball"
+  },
+  {
+    "radius": 0.6,
+    "target": 2,
+    "status": "infeasible",
+    "iterations": 3,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 1.0,
+    "target": 0,
+    "status": "infeasible",
+    "iterations": 3,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "radius": 1.0,
+    "target": 1,
+    "status": "certified",
+    "weights": [
+      0.5555555555555556,
+      0.4444444444444445
+    ],
+    "l1_distance": 0.28888888888888886,
+    "certificate_gap": -0.0,
+    "iterations": 2,
+    "tolerance": 1e-07,
+    "certificate_type": "uniform_for_all_distributions_in_finite_support_W1_ball"
+  },
+  {
+    "radius": 1.0,
+    "target": 2,
+    "status": "infeasible",
+    "iterations": 3,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  }
+]

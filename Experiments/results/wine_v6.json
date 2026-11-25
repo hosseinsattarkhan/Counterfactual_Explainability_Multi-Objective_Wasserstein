@@ -1,0 +1,380 @@
+{
+  "dataset": "UCI Wine via sklearn.datasets.load_wine",
+  "n_samples": 178,
+  "n_classes": 3,
+  "scenario_nominal": [
+    0.33146067415730335,
+    0.398876404494382,
+    0.2696629213483146
+  ],
+  "objectives": [
+    "class-conditional misclassification",
+    "class-conditional half-Brier score",
+    "normalized serialized model size proxy"
+  ],
+  "details": [
+    {
+      "model": "dummy",
+      "pickle_bytes": 485,
+      "class_error": [
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "model": "logistic",
+      "pickle_bytes": 1746,
+      "class_error": [
+        0.0,
+        0.028169014084507043,
+        0.020833333333333332
+      ]
+    },
+    {
+      "model": "tree",
+      "pickle_bytes": 3001,
+      "class_error": [
+        0.06779661016949153,
+        0.09859154929577464,
+        0.08333333333333333
+      ]
+    },
+    {
+      "model": "knn",
+      "pickle_bytes": 24903,
+      "class_error": [
+        0.0,
+        0.07042253521126761,
+        0.0
+      ]
+    },
+    {
+      "model": "forest",
+      "pickle_bytes": 86747,
+      "class_error": [
+        0.0,
+        0.04225352112676056,
+        0.0
+      ]
+    }
+  ],
+  "results": [
+    {
+      "radius": 0.0,
+      "target": "dummy",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 15,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.0,
+      "target": "logistic",
+      "cg": {
+        "status": "optimal",
+        "weights": [
+          0.6,
+          0.35000000000000003,
+          0.05
+        ],
+        "l1_distance": 0.0,
+        "iterations": 1,
+        "cuts": 0,
+        "max_violation": 0.0
+      },
+      "direct": {
+        "status": "optimal",
+        "weights": [
+          0.6,
+          0.35,
+          0.050000000000000044
+        ],
+        "l1_distance": 0.0,
+        "iterations": 1,
+        "cuts": 15,
+        "max_violation": 0.0
+      },
+      "agreement": true,
+      "audit": {
+        "max_violation": -0.0,
+        "valid": true
+      }
+    },
+    {
+      "radius": 0.0,
+      "target": "tree",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 15,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.0,
+      "target": "knn",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 15,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.0,
+      "target": "forest",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 15,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.1,
+      "target": "dummy",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 60,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.1,
+      "target": "logistic",
+      "cg": {
+        "status": "optimal",
+        "weights": [
+          0.6,
+          0.35000000000000003,
+          0.05
+        ],
+        "l1_distance": 0.0,
+        "iterations": 1,
+        "cuts": 0,
+        "max_violation": 0.0
+      },
+      "direct": {
+        "status": "optimal",
+        "weights": [
+          0.6,
+          0.35,
+          0.05
+        ],
+        "l1_distance": 0.0,
+        "iterations": 1,
+        "cuts": 60,
+        "max_violation": 0.0
+      },
+      "agreement": true,
+      "audit": {
+        "max_violation": -0.0,
+        "valid": true
+      }
+    },
+    {
+      "radius": 0.1,
+      "target": "tree",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 60,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.1,
+      "target": "knn",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 60,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.1,
+      "target": "forest",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 60,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.3,
+      "target": "dummy",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 75,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.3,
+      "target": "logistic",
+      "cg": {
+        "status": "optimal",
+        "weights": [
+          0.6,
+          0.35000000000000003,
+          0.05
+        ],
+        "l1_distance": 0.0,
+        "iterations": 1,
+        "cuts": 0,
+        "max_violation": 0.0
+      },
+      "direct": {
+        "status": "optimal",
+        "weights": [
+          0.6,
+          0.35,
+          0.05
+        ],
+        "l1_distance": 0.0,
+        "iterations": 1,
+        "cuts": 75,
+        "max_violation": 0.0
+      },
+      "agreement": true,
+      "audit": {
+        "max_violation": -0.0,
+        "valid": true
+      }
+    },
+    {
+      "radius": 0.3,
+      "target": "tree",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 75,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.3,
+      "target": "knn",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 75,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    },
+    {
+      "radius": 0.3,
+      "target": "forest",
+      "cg": {
+        "status": "infeasible",
+        "iterations": 2,
+        "cuts": 1,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "direct": {
+        "status": "infeasible",
+        "iterations": 1,
+        "cuts": 75,
+        "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+      },
+      "agreement": true,
+      "audit": null
+    }
+  ],
+  "agreements": 15
+}
